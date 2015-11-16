@@ -4,6 +4,7 @@
       background-position: center;
       color: black;
       font-family: helvetica;
+      padding-top: 70px; 
     }
     p {
       font-size: 22px;
@@ -21,3 +22,16 @@
       display: inline;
       padding: 0px 10px 0px 10px;
     }
+
+
+#map {
+  width: 200px;
+  height: 170px;
+  padding: 20px;
+}
+
+#location{
+  text-align: left;
+  font-size: 8px
+  padding: 70px;
+}

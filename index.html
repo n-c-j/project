@@ -1,46 +1,120 @@
 <!DOCTYPE html>
 <head>
 	<link href='project.css' link rel="stylesheet">
+	<link href='bootstrap.css' link rel="stylesheet">
 	<script src="jquery-2.1.4.min.js"></script>
 	<script src="index.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
+
+
 
 <body>
 	<header>
-		<h1>Women Statistics</h1> 
-		<ul>
-      		<li><a href="#">About</a></li>
-      		<li><a href="#">Issues Covered</a></li>
-      		<li><a href="#">Become Involved</a></li>
-      		<li><a href="#">Contact</a></li>
-    	</ul>
+
+
+
+
+
+
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Woman, Quantified</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Women Statistics</a>
+				</div>
+
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">About</a></li>
+						<li><a href="#issuescovered">Issues Covered</a></li>
+						<li><a href="#becomeinvolved">Become Involved</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
 	</header>
-<p>Subscribe to our newsletter!<p> 
-<input type="email" placeholder="Your email">
-  <input type="submit" id="subscribe">
 
-<article>
-	<h2>About the Company</h2>
-		<p>A platform to collect accurate data and feed back on the lives of women in the UK. </p>
-</article>
+	<div class='container'>
+		<div class="row text-center">
+			<img src="http://i.imgur.com/xyP84p8.gif?2" alt="Woman, Quantified Symbol">
+		</div>
+		<div class="row text-center">
+			<h1>Woman, Quantified</h1> 
+		</div>
+	</div>
 
-<article>
-	<h2>Issue 1: Women in the Workforce</h2>
-		<p>
-		</p>
-</article>
+	<div class="container">
+		<p>Subscribe to our newsletter!<p> 
+			<input type="email" placeholder="Your email">
+			<input type="submit" id="subscribe">
 
-<article>
-	<h2>Issue 2: Domestic Violence</h2>
-		<p>
-			We are currently collecting survey data on women and domestic violence.
-		</p>
-</article>
+			<div id="about">
+				<h2>About the Company</h2>
+				<p>A platform to collect accurate data and feed back on the lives of women in the UK. </p>
+			</div>
 
-<article>
-	<h2>Issue 3: Childcare</h2>
-		<p>Childcare Costs are one of the main obstacles for women wanting to get back to work.
-		</p>
-</article>
+			<div id="issuescovered" class="row">
 
-</body>
+				<article>
+					<h2>Issue 1: Women in the Workforce</h2>
+					<p>
+					</p>
+				</article>
+
+				<article>
+					<h2>Issue 2: Domestic Violence</h2>
+					<p>
+						We are currently collecting survey data on women and domestic violence.
+					</p>
+				</article>
+
+				<article>
+					<h2>Issue 3: Childcare</h2>
+					<p>Childcare Costs are one of the main obstacles for women wanting to get back to work.
+					</p>
+				</article>
+			</div> 
+
+			<div id="becomeinvolved">
+
+			</div>
+
+			<div id="contatct"> 
+
+				<div id="location">
+					<article>
+
+						<h4>Find us!</h4>
+
+						<p>Our offices are located at:</p> 
+						<p>165 London Lane, Old Town, London, SO3 E45</p>
+
+						<div id="map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31821.12633307904!2d-0.15029797579797374!3d51.51258249715156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x59e536907dbbdd96!2sThoughtWorks+Ltd.!5e0!3m2!1sen!2suk!4v1447702071396" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+
+					</article>
+
+				</div>
+
+				<div id='social-buttons'>
+					<button class="btn-twitter btn btn-lg">Twitter</button>
+					<button class="btn-facebook btn btn-lg">Facebook</button>
+					<button class="btn-pinterest btn btn-lg">Pinterest</button>
+				</div>
+
+			</div>
+
+
+		</body>
